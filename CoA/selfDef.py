@@ -5,7 +5,7 @@ some DIY components used in co_attention.py
 
     myLossFunc -- DIY loss function. Loss is defined as the sum of -log(p),
                                     where p is the probability of a hashtag in a train instance
-    
+
 """
 import keras.backend as K
 from keras.engine.topology import Layer, InputSpec

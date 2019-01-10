@@ -23,6 +23,7 @@ attention_size = 200
 dim_k = 100
 num_region = 7*7
 drop_rate = 0.5
+TopK= 6
 
 # prepare the following data. img data is the output of VGG-16
 img_train, text_train, tag_train, img_test, text_test, tag_test
